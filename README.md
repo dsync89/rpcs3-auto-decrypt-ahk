@@ -27,6 +27,8 @@ python gen_ahk.py
 
 Modify `source_directory` and `destination_directory` in the script as needed.
 
+If you don't want to generate these AHK, you can simply copy and paste the AHK generated based on my romlist from `utils/scripts/out` to your ROM folder.
+
 Then, modify `.config.ini`
 
 ```
