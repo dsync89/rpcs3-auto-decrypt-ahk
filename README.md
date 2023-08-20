@@ -16,6 +16,8 @@ Just like my other repo work on [vita3k-ahk-generator](https://github.com/dsync8
 
 # Quick Start
 
+Copy all the files to your PS3 rom folder. This is also the folder where you configure Launchbox to lookup your games.
+
 Start by generating AHK scripts from your source ROM folder.
 
 ```
@@ -54,10 +56,10 @@ Pressing `Esc` any time while the script is running will:
 
 Your final directory structure for your PS3 roms should be like:
 ```
-|- .config.ini
 |- utils
-|- Game1.ahk
-|- Game2.ahk
+|- .config.ini
+|- Game1.ahk <-- These AHK files will only appears after you run utils/scripts/gen_ahk.py script 
+|- Game2.ahk <-- These AHK files will only appears after you run utils/scripts/gen_ahk.py script 
 ...
 ```
 
